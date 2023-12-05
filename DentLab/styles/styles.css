@@ -1,0 +1,304 @@
+body{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #F7F5EB;
+}
+
+
+/* NAVBAR STYLES */
+
+#NAVBAR{
+    position: relative;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.main-navbar{
+    padding: 2% 15% 2% 15%;
+    background-color: #dee4e7;
+}
+
+.nav-item{
+    padding: 8px;
+}
+
+
+/* SECTION 1 */
+#slider{
+    font-weight: 800;
+    color: white;
+}
+
+.wrapper{
+    position: relative;
+    /* min-height: 60vh; */
+    background: url(../imgs/dentista-s1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+
+.wrapper::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #2c455d, #00012c);
+    opacity: 0.85;
+}
+
+
+.main-image-text{
+    font-size: 40px;
+    line-height: 1.5;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.icons{
+    padding: 5px;
+}
+
+.button{
+    padding: 20px;
+}
+
+.btn-whats{
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    font-weight: normal;
+    text-align: center;;
+    position: relative;
+    width: 300px;
+    background-color: #71DDCE;
+    border-radius: 28px;
+    color: #212529;
+}
+
+.btn-whats:hover{
+    background-color: #71DDCE;
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    color: #212529;
+}
+
+.btn-tel{
+    font-size: 20px;
+    padding: 15px;
+    font-weight: normal;
+    text-align: center;;
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 28px;
+    color: #212529;
+}
+
+.btn-tel:hover{
+    background-color: #fff;
+    transform: scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    color: #212529;
+}
+
+
+.no-padding, .container-fluid {
+    padding: 0;
+}
+
+/* FOTOS */
+#fotos{
+    background-color: #dee4e7;
+}
+
+.fotos{
+    padding-top: 75px;
+}
+
+
+/* SERVICES */
+#servicos{
+    margin-top: 75px;
+    padding: 0 15% 0 15%;
+    
+}
+
+.btn-services{
+    background-color: #408A9C;
+    border: 1px solid #6A6866;
+    color: #fff;
+}
+
+.btn-services:hover{
+    background-color: #135e70;
+    color: #fff;
+}
+
+
+
+
+.services-img{
+    
+    height: 300px;
+}
+
+.service-card{
+    padding: 15px;
+    text-align: left;
+}
+
+.services-title{
+    text-align: left;
+    font-size: 2.5rem;
+    
+}
+
+/* LOCATION */
+#location{
+    margin-top: 75px;
+}
+
+.loc-title{
+    position: relative;
+    color: #fff;
+    text-align: left;
+}
+
+
+.map-e-form{
+    position: relative;
+    width: 100%;
+}
+
+#map{
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    flex: 1;
+}
+
+.i-map{
+    position: relative;
+    width: 100%;
+    height: 93.2%;
+}
+
+#location .wrapper{
+    height: 1000px;
+}
+
+
+.form{
+    position: relative;
+    text-align: left;
+    width: 100%;
+    padding: 25px;
+    flex: 1;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.form-input{
+    margin-bottom: 20px;
+}
+
+.btn-submit{
+    background-color: #408A9C;
+    border: 1px solid #6A6866;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-submit:hover{
+    background-color: #135e70;
+    color: #fff;
+}
+
+/* PROFISSIONAL */
+#profissional{
+    margin-top: 75px;
+    padding: 0 15% 0 15%;
+    text-align: left;
+}
+
+.img-doutora{
+    height: 700px;
+    margin-bottom: 30px
+}
+
+/* FOOTER */
+.footer{
+    background-color: #dee4e7;
+}
+
+.footer-items{
+    color: gray;
+}
+
+/* MEDIA QUERYS
+@media (max-width: 1200px) {
+    /* .main-image-text{
+        top: 10%;
+        text-align: left;
+    } */
+
+    /* .btn-text{
+        bottom: 25%;
+    }
+
+    #location .wrapper{
+        height: 1300px;
+    }
+
+    #map{
+        top: 100px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+    }
+    
+    .i-map{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .form{
+        width: 50%;
+        position: absolute;
+        text-align: left;
+        left: 0;
+        right: 0;
+        top: 600px;
+        color: #fff;
+        font-size: 2rem;
+        margin: auto;
+    }
+}
+*/
+
+@media (max-width: 576px) {
+    #location .wrapper{
+        height: 1200px;
+    }
+
+}

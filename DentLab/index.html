@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site DentLab</title>
+    
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Pacifico&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <section id="NAVBAR">
+        <nav class="navbar navbar-expand-lg main-navbar" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo.svg" alt="" width="80" height="80">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto main-nav-items">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="slider">
+        <div class="wrapper container-fluid flex-row justify-content-center align-items-center">
+            <div class="container">
+                    <h1 class="main-image-text"><span class="author">Odontologia</span>.  <strong>Garantindo a qualidade dos tratamentos </strong>com os melhores profissionais!</h1>
+                    <div class="buttons-wrap d-flex flex-lg-row flex-column justify-content-center">
+                        <div class="button">
+                            <button class="btn btn-tel">
+                                <i class="fa-solid fa-phone icons"></i>Agende pelo telefone</button> 
+                        </div>
+                        <div class="button">
+                            <button class="btn btn-tel">
+                                <i class="fa-solid fa-phone icons"></i>Login</button>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="fotos">
+    <div class="container fotos">
+        <h2 class="services-title">Fotos</h2>
+        <hr>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                    src="imgs/clinica.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="clinica dentista"
+                />
+
+                <img
+                    src="imgs/equipe.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="clinica dentista"
+                />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                    src="imgs/equipe.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="clinica dentista"
+                />
+
+                <img
+                    src="imgs/clinica.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="clinica dentista"
+                />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                src="imgs/clinica.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="clinica dentista"
+            />
+
+            <img
+                src="imgs/equipe.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="clinica dentista"
+            />
+        </div>
+        </div>
+    </div>
+   </section>
+
+
+    <section id="servicos">
+
+        <h2 class="services-title">O que nós fazemos?</h2>
+        <hr class="services-hr">
+
+
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-12 pd-card">
+                <div class="card service-card">
+                    <img src="imgs/clareamento.svg" class="card-img-top services-img" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Clareamento</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-lg btn-services">Veja mais!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 pd-card">
+                <div class="card service-card">
+                    <img src="imgs/aparelho.svg" class="card-img-top services-img" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Aparelho</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-lg btn-services">Veja mais!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 pd-card">
+                <div class="card service-card">
+                    <img src="imgs/extracao.svg" class="card-img-top services-img" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Extracao</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-lg btn-services">Veja mais!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location">
+        <div class="wrapper d-flex">
+            <div class="container-md container-fluid c-location d-flex flex-lg-row flex-column justify-content-center align-items-center flex-fill">
+                <div class="map-e-form d-flex flex-lg-row flex-column justify-content-lg-between">
+                <div id="map">
+                    <h2 class="loc-title"><span class="border-span">Sobre Nós</span></h2>
+                    <h3><span class="border-span">Há muitas razões para nos escolher</span></h3>
+                    <h4>Somos  rapidos e ageis em nossos procedimentos. Sorria com confiança! Cuide da sua saude bucal com nossa equipe experiente e tecnologia de ponta.</h4>
+                </div>
+
+                <div class="form">
+                    <h2 class="loc-title"><span class="border-span">Agende sua consulta!</span></h2>
+                    <form action="/" method="post">
+                        <label class="form-label">Nome completo: </label>
+                        <input type="text" class="form-control form-control-md form-input" name="nome" id="" placeholder="Seu Nome">   
+                        <label class="form-label">Email: </label>
+                        <input type="email" class="form-control form-control-md form-input" name="nome" id="" placeholder="seuemail@email.com">
+
+                        <label class="form-label">Whatsapp: </label>
+                        <input type="tel" class="form-control form-control-md form-input" name="nome" id="" placeholder="seuemail@email.com">
+
+                        <label for="subject" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="subject" name="subject" placeholder="Digite sua mensagem..." style="height:200px"></textarea>
+                        <button type="submit" class="btn btn-outline-dark btn-submit btn-saiba-mais">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="profissional">
+        <h2 class="services-title">Conheça a dentista</h2>
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-100">
+                <img src="imgs/dentista.png" class="img-doutora img-fluid w-100">
+            </div>
+            <div class="col-lg-6">
+                <h3>Formação</h3>
+                <p>UFMG
+
+                    2010 – 2018</p>
+                <h4>Você merece o sorriso mais radiante, e nós temos a equipe perfeita para tornar isso possivel! Bem-vindo à nossa clinica odontologica, onde a saude, o bem-estar e a beleza do seu sorriso são a nossa maior prioridade.</h4>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section id="">
+        <div class="container-fluid footer">
+            <footer class="py-3">
+            <ul class="nav justify-content-center pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Fotos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contato</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2023 DentLab</p>
+            </footer>
+        </div>
+    </section>
+      
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/resources.js"></script>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/8ad2074106.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
